@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+body{
+    box-sizing: border-box;
+    text-align: center;
+    background: lightyellow;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App h1{
+    text-align: center;
+    color: rgb(13, 11, 136);
+    font-size: 70px;  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h3{
+    text-align: center;
+    color: rgb(4, 4, 12);
+    font-size: 35px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App input{
+    border: 2px solid black;
+    padding: 5px;
+    background-color: rgb(236, 229, 217);
+    height: 50px;
+    width: 400px;
+    margin-bottom: 6%;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    border: 5px solid pink;
+    border-radius: 25px;
+    padding: 30;
+    text-align: "left";
+    max-width: 50%;
+    margin: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.add-btn{
+    border: 5px solid blue;
+    padding: 5px;
+    background-color: rgb(236, 229, 217);
+    height: 50px;
+    width: 80px;
+    margin-top: 6%;
+    margin-left: 8%;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul{
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    list-style: none;
+}
+
+ul li{
+   margin-right: 50%;
+}
+
+.delete-btn{
+    border: 5px solid rgb(14, 3, 2);
+    background-color: rgb(236, 229, 217);
+    height: 40px;
+    width: 80px;
+    margin-left: 8%;
+    margin-top: 4%;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
 }
